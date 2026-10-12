@@ -50,7 +50,6 @@ int main(void) {
    *ptr =55;
    ptr++;
 
-   ptr = arrayTest; //so this will reset 
 
    /*
    I am amazed.
