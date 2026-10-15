@@ -1,0 +1,2 @@
+Hello World, this is my first line to my txt file, and i C is so great to write in
+It worked!!!! hehehehe
