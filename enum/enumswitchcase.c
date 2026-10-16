@@ -31,7 +31,7 @@ int main () {
         break;
 
         case MEDIUM:
-        if(temp.temperature >= LOW && temAp.temperature < MEDIUM) {
+        if(temp.temperature >= LOW && temp.temperature < MEDIUM) {
             printf("The temperature is: %.2f and it is below than: %d\n",temp.temperature, myEnumTemp);
         }
         break;
