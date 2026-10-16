@@ -2,19 +2,19 @@
 
 
 struct Owner {
-    char firstName[30];
-    char lastName[30];
+    char firstName[30];//30 bytes
+    char lastName[30];//30 bytes
 };
 
 struct Passenger {
-    char firstName[30];
-    char lastName[30];
+    char firstName[30]; //30 bytes
+    char lastName[30];//30 bytes
 };
 
 struct myStructureCar {
     char brand[30]; //30 bytes
     char model[30]; //30 bytes
-    int year;
+    int year; // 4 bytes    
     struct Owner *owner; //we designate owner as a pointer -- this is the memory address that points to the struct of Owner
     struct Passenger *passenger; //designate the passenger also a a pointer -- memory address that points to the struct of Passenger
 };
