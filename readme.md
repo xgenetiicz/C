@@ -25,6 +25,8 @@ I mainly work in Java (Spring Boot). C is a side track to see what Java hides: m
 
 There will be more, but i won't have a full documentation on this project since this is where i will learn about how C works.
 
+**EDIT: There will be documentation on things I find very important for my learning,
+
 ## Important notes
 
 - Reading code and writing code are two different skills. Write from a blank file always.
