@@ -20,7 +20,7 @@ struct myStructureCar {
 };
 
 /*
-Found out,and it makes sense that the the function needs to be under the struct, so the compiler understand that
+Found out,and it makes sense that the the function declaration needs to be under the struct, so the compiler understand that
 this declared function, has a parameter that holds a struct, where this struct holds the values of the car structure
 with nested structures where these point to each their own structure for retriving firstname and lastname,
 */
