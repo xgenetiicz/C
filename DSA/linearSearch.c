@@ -44,10 +44,10 @@ void largestElement() {
 
     //using a new loop to check the numbers that are even in the array by modulo operator
     for (int i = 0; i < length; i++) {
-        if (i % 2 == 0){
-            printf("Even: %d\n",i);
-        } if(i % 2 == 1) {
-            printf("Odd: %d ",i);
+        if (myArray[i] % 2 == 0){
+            printf("Even: %d\n",myArray[i]);
+        } if(myArray[i] % 2 == 1) {
+            printf("Odd: %d\n",myArray[i]);
         }
     }
 }
