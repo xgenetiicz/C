@@ -30,7 +30,7 @@ void updateCar(struct myStructureCar *myCar);
 int main() {
 
     struct Owner person = {"Genti", "Rudi"};
-    struct Passenger passenger = {"Arlinda", "Morina"};
+    struct Passenger passenger = {"Arlinda", "test"};
     struct myStructureCar car = {"Audi","Q7",1998,&person,&passenger};
 
     printf("the year of the car was: %d\n", car.year);
