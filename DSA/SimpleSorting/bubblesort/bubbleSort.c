@@ -32,7 +32,6 @@ i=0 j  j+1
     */
 
     int temp = 0;
-    int swap = 0;
 
     printf("The sortered list is: \n");
     for (int i = 0; i < length; i++) {
