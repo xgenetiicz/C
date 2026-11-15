@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int linearSearch(int arr[],int length, int tempValue);
+int linearSearch(int arr[],int length, int targetValue);
 
 int main () {
 
@@ -18,10 +18,10 @@ int main () {
 }
 
 
-int linearSearch(int arr[],int length, int tempValue) {
+int linearSearch(int arr[],int length, int targetValue) {
 
     for (int i = 0; i < length; i++) {
-        if (arr[i] == tempValue) {
+        if (arr[i] == targetValue) {
             return i;
         }
     }
